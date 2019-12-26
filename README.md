@@ -8,3 +8,6 @@ Learning Flask
 - run: virtualenv env 
 - run: source env/bin/activate
 - run: pip install flask flask-sqlalchemy
+
+
+SSL certificate problems with GitHub
