@@ -45,9 +45,10 @@ A simple Web application version of Todo list.
 - `git commit -m "init app"`
 
 - `heroku create name_of_your_app`
-git remote -v
 
-touch Procfile
+- `git remote -v`
 
-git push heroku master
+- `touch Procfile`
+
+- `git push heroku master`
 
