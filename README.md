@@ -28,13 +28,15 @@ A simple Web application version of Todo list.
 - `python app.py` to run the application
 
 
-## Deploy to Heroku
+## Deploy to Heroku 
 
 - Create a free account on [heroku](https://www.heroku.com)
 
 - `heroku login`
 
 - `pip install gunicorn`
+
+- `touch Procfile`
  
 - `pip freeze > requirements.txt`
 
@@ -47,8 +49,6 @@ A simple Web application version of Todo list.
 - `heroku create name_of_your_app`
 
 - `git remote -v`
-
-- `touch Procfile`
 
 - `git push heroku master`
 
