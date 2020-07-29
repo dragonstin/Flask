@@ -1,0 +1,17 @@
+{
+    "name": "Flask  Test",
+    "short_name": "FlaskTest",
+    "theme_color": "#314d6e",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "orientation": "portrait",
+    "Scope": "/",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "images/flask.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        }
+    ]
+}

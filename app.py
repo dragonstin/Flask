@@ -1,8 +1,13 @@
 from flask import Flask, render_template, url_for, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 from datetime import date
+from flask_sslify import SSLify
+import os
 
-app = Flask(__name__)
+if 'DYNO' in os.environ:
+    sslify = SSLify(app)
+    
+app = Flask(__name__, static_url_path='')
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
 db = SQLAlchemy(app)
 
